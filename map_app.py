@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import folium
-from streamlit_folium import streamlit_folium  # folium 을 streamlit 에 통합하기 위한 라이브러리
+from streamlit_folium import folium_static  # folium 을 streamlit 에 통합하기 위한 라이브러리
 
 # 페이지 제목 설정
 st.title('Streamlit 지도 시각화 예제')
